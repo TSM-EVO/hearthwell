@@ -20,8 +20,16 @@
 	    {
             "type": "crafting",
 			"title": "Stone Dust",
+			"recipe": "hwell:dust"
+		},
+	    {
+            "type": "crush",
+			"name": "Stone Dust",
 			"recipe": "hwell:dust",
-			"recipe2": "hwell:dust_block"
+			"input1": "hwell:crushing_block",
+			"input2": "minecraft:cobblestone",
+			"output": "hwell:dust",
+			"text": "Toss your items on the ground, and place the crushing block in the world above them. It will fall, like sand, and crush what's below."
 		},
 	    {
             "type": "smelting",

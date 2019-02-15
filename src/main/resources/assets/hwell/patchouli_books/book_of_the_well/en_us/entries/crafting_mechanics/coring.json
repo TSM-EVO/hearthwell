@@ -7,14 +7,14 @@
             "type": "text",
             "text": "Cores transform into resources. Activate them with a shard, and then place catalyst blocks nearby. Particle effects will tell you it's working. Sometimes, the catalyst blocks will dislodge, and have to be replaced."
         },
-        { "type": "test",
-        "name": "Coring 101",
-        "input1": "minecraft:stone",
-        "input2": "hwell:crystal",
-        "input3": "minecraft:grass",
-        "output": "minecraft:sand"
-        
-        
+        { 
+	        "type": "core",
+	        "name": "Coring 101",
+	        "input1": "minecraft:stone",
+	        "input2": "hwell:crystal",
+	        "input3": "minecraft:grass",
+	        "output": "minecraft:sand",
+	        "text": ""      
         },
 		{
             "type": "crafting",

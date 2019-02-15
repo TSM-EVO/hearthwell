@@ -10,24 +10,24 @@
             "item": "hwell:asul_ingot",
             "link_recipe": true,
             "text": "By creating a mixture of raw materials, and then subjecting it to the rays of an Amplifying Tube, it's possible to create a new alloy."
-        },
-		{
-            "type": "smelting",
-			"title": "Semlting Crystals",
-			"text": "Smelt a mysterious compound to create these crystals.",
-			"recipe": "hwell:leaf_mesh"		
+        },        
+        { 	"type": "tube",
+	        "name": "Tubing 101",
+	        "input1": "hwell:furnace_tube",
+	        "input2": "hwell:raw_asul_block",
+	        "output": "hwell:asul_block"
         },
 	    {
             "type": "crafting",
 			"title": "Raw Asul",
 			"recipe": "hwell:raw_asul_block",
-			"recipe2": "hwell:asul_block"
+			"recipe2": "hwell:asul_ingot"
 		},
-		{
+	    {
             "type": "crafting",
-			"title": "Utility Crystals",
-			"recipe": "hwell:crystal_bowl",
-			"recipe2": "hwell:crystal_catalyst"
+			"title": "Asul Block",
+			"recipe": "hwell:asul_block",
+			"recipe2": "hwell:asul_machine_case"
 		}
     ]
 }
