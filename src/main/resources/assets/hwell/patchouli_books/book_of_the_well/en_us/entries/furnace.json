@@ -10,6 +10,14 @@
             "recipe": "hwell:heat_furnace"
         },
 		{
+            "type": "image",
+            "images": [
+            "hwell:textures/gui/patchouli/furnace/furnace1.png",
+            "hwell:textures/gui/patchouli/furnace/furnace2.png",
+            "hwell:textures/gui/patchouli/furnace/furnace3.png"
+            ]
+		},
+		{
             "type": "multiblock",
             "name": "Heat Furnace",
             "multiblock": {
