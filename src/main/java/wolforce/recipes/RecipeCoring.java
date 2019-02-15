@@ -132,8 +132,8 @@ public class RecipeCoring {
 	//
 
 	public static RecipeCoring getResult(Block coreBlock, Item shard) {
-		if (coreBlock != stone && coreBlock != heat && coreBlock != green && coreBlock != senti)
-			throw new RuntimeException(coreBlock.getUnlocalizedName() + " is not a valid core");
+		//if (coreBlock != stone && coreBlock != heat && coreBlock != green && coreBlock != senti)
+		//	throw new RuntimeException(coreBlock.getUnlocalizedName() + " is not a valid core");
 		// SPECIAL CASE
 		// if (coreBlock == green && shard == Main.shard_p)
 		// return new RecipeCoring(new Irio(Math.random() < .5 ? BROWN_MUSHROOM_BLOCK :
