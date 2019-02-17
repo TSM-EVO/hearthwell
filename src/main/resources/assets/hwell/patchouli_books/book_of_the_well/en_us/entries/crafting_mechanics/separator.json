@@ -1,12 +1,13 @@
 {
     "name": "Separator",
     "icon": "hwell:separator",
-    "category": "machines",
+    "category": "crafting_mechanics",
+    "sortnum": 12,
     "pages": [
 		{
             "type": "crafting",
             "title": "Separator",            
-			"text": "The Separator is a multi-block machine which separates items into their components. It requires 100 per operation.",
+			"text": "A multiblock structure that allows you to divide complex constructions into its components. The components will exit the machine in the various outputs. Requires 100 Energy per Operation.",
             "recipe": "hwell:separator"
         },
 		{

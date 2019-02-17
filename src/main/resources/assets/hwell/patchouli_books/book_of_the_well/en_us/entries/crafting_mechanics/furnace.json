@@ -1,22 +1,15 @@
 {
     "name": "Heat Furnace",
     "icon": "hwell:heat_furnace",
-    "category": "machines",
+    "category": "crafting_mechanics",
+    "sortnum": 14,
     "pages": [
 		{
             "type": "crafting",
             "title": "Heat Furnace",            
-			"text": "The Heat Furnace is a multi-block machine which instantly smelts items at no cost. Throw the items into the furnace. Water on top may require replacing.",
+			"text": "A multiblock structure that will cook and smelt without delay or consumption of materials. It will, however, sometimes consume some water from the top. Requires 100 Energy per Operation.",
             "recipe": "hwell:heat_furnace"
         },
-		{
-            "type": "image",
-            "images": [
-            "hwell:textures/gui/patchouli/furnace/furnace1.png",
-            "hwell:textures/gui/patchouli/furnace/furnace2.png",
-            "hwell:textures/gui/patchouli/furnace/furnace3.png"
-            ]
-		},
 		{
             "type": "multiblock",
             "name": "Heat Furnace",
