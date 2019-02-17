@@ -2,6 +2,7 @@
     "name": "Amplifying Tube Mechanic",
     "icon": "hwell:furnace_tube",
     "category": "crafting_mechanics",
+    "sortnum": 2,
     "pages": [
         {
             "type": "text",

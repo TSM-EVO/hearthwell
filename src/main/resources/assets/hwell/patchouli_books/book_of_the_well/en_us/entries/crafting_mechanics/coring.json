@@ -2,6 +2,7 @@
     "name": "Coring Mechanic",
     "icon": "hwell:core_stone",
     "category": "crafting_mechanics",
+    "sortnum": 4,
     "pages": [
         {
             "type": "text",
