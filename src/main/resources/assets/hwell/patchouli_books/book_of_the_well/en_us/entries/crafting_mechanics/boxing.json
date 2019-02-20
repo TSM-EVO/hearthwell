@@ -12,7 +12,7 @@
         {   
             "type": "spotlight",
             "title": "Boxes",
-            "item": "hwell:diamond_block_box",
+            "item": "hwell:box_diamond_block",
             "link_recipe": true,
             "text": "One block returns a stack of decorative boxes."
         }
